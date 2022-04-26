@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(158, 181, 250); 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+header nav li{
+    display: inline-block;
+}  
+ nav li a{  
+    margin:0px 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+ }
+ main{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height:500px; 
+}
+.login , .signUp{ 
+   background-color: rgb(245, 200, 141); 
+   padding: 3px 10px;   
+   border-radius: 5px;
+}
+.img{
+   width: 50%;
+   height: 100%;
+ } 
+ .paragraph{
+    width: 50%; 
+}
+#img{
+    height: 400px !important;
+    width:350px; 
+    border-radius:0 10px 10px 0;
+}
+
+.form{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(59, 145, 250);
+    padding: 25px 6px;
+    border-radius: 10px 0 0 10px;
+}  
+.signup{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: auto;
+    width:700px; 
+    margin-top:50px;
+    height: 400px; 
+}
+.consultation{  
+    text-align:center;
+    margin: 50px 0; 
+}
+.img_user{
+    height:100px !important; 
+}   
+
+
